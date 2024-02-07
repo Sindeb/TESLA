@@ -1,0 +1,151 @@
+@import "utils/null.scss";
+@import "utils/variables.scss";
+
+@import "main.scss";
+@import "statistic.scss";
+@import "speed.scss";
+@import "advantage.scss";
+@import "info.scss";
+@import "footer.scss";
+
+
+body{
+    margin: 0 auto;
+    font-family: "Roboto";
+    background-color: black;
+}
+.wrapper {
+	min-height: 100%;
+	overflow:hidden;
+	display: flex;
+	flex-direction: column;
+}    
+@media (max-width: 1400px){
+	.container{
+		max-width: 970px;
+        
+	}
+    
+}    
+@media (max-width: 1160px){
+	.container{
+		max-width: 800px;
+        
+	}
+    .info_text{
+        padding: 10px;
+        justify-content: center;
+
+    }
+    .second{
+        margin-left: -12%;
+    }
+    
+    .road, .text, .logo, .buton {
+        display: flex;
+        justify-content: center;
+        
+    }
+   
+    .info1{
+        text-align: center;
+
+    }
+    .car_info{
+        flex-direction: column;
+        .engine, .battery, .speed{
+            margin: 15px;
+        }
+    }
+    .static_img{
+        width: 100%;
+    }
+    .speed_row, .advantage_row{
+        
+        justify-content: center;
+        
+    }
+    .speed_image, .advantage_image{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .speed_text, .advantage_text{
+       align-items: center;
+        display: flex;
+       
+       
+        flex-direction: column;
+        .info_speed, .info_advantage{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            margin-top: -50px;
+        }
+        .info_advantage{
+            padding-top: 50px;
+            margin-bottom: -100px;
+        }
+    }
+    .advantage_text{
+        width: 100%;
+    }
+    .last_img{
+        padding: 10px;
+    }
+   
+}  
+@media (max-width: 992px){
+    .advantage_text .h3{
+        margin-top: -100px;
+    }
+	.container{
+		max-width: 750px;
+	}
+    .second{
+        margin-left: -12%;
+    }
+}  
+@media (max-width: 767px){
+	.container{
+		max-width: 550px;
+	}
+    .speed_row, .advantage_row{
+        flex-wrap: wrap;
+        align-items: center;
+        flex-flow: column;
+    }
+    .speed_img, .advantage_img {
+        justify-content: center;
+        .speed_image, .advantage_image{
+            justify-content: center;
+        }
+    }
+}  
+@media (max-width: 580px){
+	.container{
+		max-width: 350px;
+	}
+    .speed_row, .advantage_row{
+        flex-wrap: wrap;
+        align-items: center;
+        flex-flow: column;
+    }
+    .speed_img,.advantage_img{
+        justify-content: center;
+        width: 100%;
+        .speed_image,.advantage_image{
+            max-width: 100%;
+        }
+    }
+    .advantage_image{
+        padding: 10px
+    }
+    .advantage_row{
+        flex-wrap: wrap;
+        align-items: center;
+        flex-flow: column;
+    }
+    
+}  
+
+

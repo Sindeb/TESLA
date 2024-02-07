@@ -1,0 +1,48 @@
+.main{
+    .fone{
+        background: url('img/fone.png') no-repeat;
+        height: 100vh;
+        background-size: cover;
+        background-position: center center;
+    
+    
+    }
+    
+}
+.header{
+    height: 100vh;
+    padding: 36px 0px 26px 0px;
+    background: rgba(0, 0, 0, 0.3);
+    .container{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    .tesla{
+        padding: 10px 0;
+        .road{
+            font-size: calc(46px + 50 * ((100vw - 320px) / 880));
+            color: #ffff;
+            padding: 2% 0 5%;
+        }
+        .info1{
+            color:#ffff;
+            font-size:calc(16px + 8 * ((100vw - 320px) / 880)); ;
+            width: 550px;
+            margin-bottom: 105px;
+        }
+    }
+    .want{
+        transition: all 0.5s ease;
+        color: #FFFFFF;
+        padding: 30px 0px;
+        width: 284px;
+        background: rgba(255, 255, 255, 0.15);
+        border: 1px solid #FFFFFF;
+        &:hover{
+            background-color: $dark_red;
+        }
+        font-size: 20px;
+        font-family: "Roboto";
+    }
+    
+}

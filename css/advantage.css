@@ -1,0 +1,11 @@
+.advantage {
+  background-color: black;
+}
+.advantage .container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.advantage .advantage_row {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=advantage.css.map */

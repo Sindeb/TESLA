@@ -1,0 +1,49 @@
+.statitistic{
+    padding: 100px 10px;
+    background-color: black;
+    .container{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    .car_info{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        
+        .engine, .battery, .speed{
+            color: #fff;
+            .h2{
+                font-size: 20px;
+                margin-bottom: 20px;
+                line-height: 28px;
+    
+                
+            }
+            .all_time{
+                display: flex;
+                justify-content: center;
+            }
+            .h3{
+                color: $red;
+                font-size: 24px;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            }
+            .time{
+                font-size: 96px;
+            }
+            .sec{
+                display: flex;
+                align-items: end;
+            }
+        }
+    }
+    .static_img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    
+}

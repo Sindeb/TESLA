@@ -1,0 +1,24 @@
+.statitistic {
+  background-color: black;
+}
+.statitistic .container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.statitistic .car_info {
+  display: flex;
+  justify-content: space-between;
+}
+.statitistic .car_info .engine {
+  color: #fff;
+}
+.statitistic .car_info .engine .h2 {
+  font-size: 20px;
+}
+.statitistic .car_info .engine .time {
+  display: flex;
+  justify-content: center;
+}
+.statitistic .car_info .engine .h3 {
+  color: r;
+}/*# sourceMappingURL=statistic.css.map */

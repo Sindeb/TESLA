@@ -1,0 +1,37 @@
+.speed_info{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4%;
+    
+    background-color: black;
+    .speed_row{
+        display: flex;
+        
+        justify-content: space-between;
+        
+       
+    }
+    .container{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    .h3{
+        font-size: 36px;
+        color:$red;
+        margin-bottom: 100px;
+        
+    }
+    .info_speed{
+        color: #ffff;
+        font-size: 20px;
+        width: 40%;
+        padding: 0 0 20px;
+    }
+    .speed_img{
+        max-width: 570px;
+        .speed_image{
+            width: 100%;
+            
+        }
+    }
+}

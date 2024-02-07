@@ -1,0 +1,32 @@
+.footer{
+    background-color: $dark_red;
+    .container{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    .want{
+        display: flex;
+        justify-content: center;
+        margin: 0  auto;
+        transition: all 0.5s ease;
+        color: #FFFFFF;
+        padding: 30px 0px;
+        margin-bottom: 83px;
+        width: 284px;
+        background: rgba(255, 255, 255, 0.15);
+        border: 1px solid #FFFFFF;
+        &:hover{
+            background-color: #3a0405;
+        }
+        font-size: 20px;
+        font-family: "Roboto";
+    }
+    .button{
+        padding: 83px 0 20px;
+    }
+    .contact{
+        display: flex;
+        justify-content: center;
+        color: #FFFFFF;
+    }
+}
